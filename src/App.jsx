@@ -1,12 +1,23 @@
-import { Routes, Route } from "react-router-dom";
-import Home from "./pages/Home";
-import AboutUs from "./pages/About-Us";
+import Navbar from "./components/Navbar";
+import Hero from "./components/Hero";
+import About from "./pages/About-Us";
+import WhySection from "./components/WhySection";
+import Products from "./pages/Our-Products";
+import Contact from "./pages/Contact-Us";
+import Footer from "./components/Footer";
 
-export default function App() {
+function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="/about-us" element={<AboutUs />} />
-    </Routes>
+    <div className="font-sans scroll-smooth">
+      <Navbar />
+      <section id="home"><Hero /></section>
+      <section id="about"><About /></section>
+      <section id="products"><Products /></section>
+      <section id="why"><WhySection /></section>
+      <section id="contact"><Contact /></section>
+      <Footer />
+    </div>
   );
 }
+
+export default App;

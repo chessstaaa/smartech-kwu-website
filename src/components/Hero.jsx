@@ -1,15 +1,37 @@
+import foto1 from "../assets/foto1.jpg";
+
 export default function Hero() {
   return (
-    <section className="text-center py-20 px-6 bg-gray-50">
-      <h1 className="text-4xl md:text-5xl font-extrabold text-gray-800 mb-4">
-        Sus Sus Among Us
-      </h1>
-      <p className="text-gray-600 max-w-2xl mx-auto mb-6">
-        Smart Tech, Playful Design
-      </p>
-      <a href="/our-products" className="px-8 py-3 bg-green-700 text-white rounded-lg hover:bg-green-800">
-        Read More
-      </a>
+    <section
+      id="home"
+      className="relative h-screen flex flex-col justify-center items-center text-center text-white"
+      style={{
+        backgroundImage: `url(${foto1})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
+    >
+      {/* Overlay gradasi agar teks tetap terbaca */}
+      <div className="absolute inset-0 bg-black/40"></div>
+
+      {/* Fade ke putih (untuk transisi halus ke section berikutnya) */}
+      <div className="absolute bottom-0 left-0 right-0 h-60 bg-gradient-to-b from-transparent to-white"></div>
+
+      {/* Konten teks */}
+      <div className="relative z-10 px-6">
+        <h1 className="text-5xl md:text-6xl font-extrabold mb-4 drop-shadow-lg">
+          SMARTECH
+        </h1>
+        <p className="text-lg md:text-2xl mb-6 font-medium drop-shadow">
+          Empowering Your Life with Innovative Technology Solutions
+        </p>
+        <a
+          href="#about"
+          className="px-8 py-3 bg-green-700 text-white rounded-lg hover:bg-green-800 transition font-semibold shadow"
+        >
+          Learn More
+        </a>
+      </div>
     </section>
   );
 }
