@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react() ,tailwindcss()],
-  base: '/kwu-web/', // ganti dengan nama repo kamu
+  base: "/smartech-kwu-website", // ganti dengan nama repo kamu
 })

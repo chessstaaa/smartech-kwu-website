@@ -10,7 +10,7 @@ export default function Contact() {
         <div className="grid md:grid-cols-2 gap-10">
           {/* Info Kontak */}
           <div className="bg-white shadow-md rounded-xl p-8 text-left">
-            <h3 className="text-xl font-semibold text-green-700 mb-4">Get in Touch</h3>
+            <h3 className="text-xl font-semibold text-cyan-700 mb-4">Get in Touch</h3>
             <p className="text-gray-600 mb-2">
               📍 Bojongsantos Street No.82, Bandung, West Java
             </p>
@@ -50,7 +50,7 @@ export default function Contact() {
 
             <button
               type="submit"
-              className="w-full bg-green-700 text-white font-semibold py-2 rounded-lg hover:bg-green-800 transition"
+              className="w-full bg-cyan-700 text-white font-semibold py-2 rounded-lg hover:bg-cyan-900 transition"
             >
               Send Message
             </button>

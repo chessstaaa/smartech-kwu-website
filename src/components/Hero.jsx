@@ -19,15 +19,17 @@ export default function Hero() {
 
       {/* Konten teks */}
       <div className="relative z-10 px-6">
-        <h1 className="text-5xl md:text-6xl font-extrabold mb-4 drop-shadow-lg">
+        {/* Menggunakan drop-shadow-2xl untuk bayangan yang lebih kuat */}
+        <h1 className="text-5xl md:text-6xl font-extrabold mb-4 drop-shadow-2xl">
           SMARTECH
         </h1>
-        <p className="text-lg md:text-2xl mb-6 font-medium drop-shadow">
+        {/* Menggunakan drop-shadow-lg agar lebih menonjol */}
+        <p className="text-lg md:text-2xl mb-6 font-medium drop-shadow-lg">
           Empowering Your Life with Innovative Technology Solutions
         </p>
         <a
           href="#about"
-          className="px-8 py-3 bg-green-700 text-white rounded-lg hover:bg-green-800 transition font-semibold shadow"
+          className="px-8 py-3 bg-cyan-700 text-white rounded-lg hover:bg-slate-100 hover:text-black transition font-semibold shadow-xl" // Menambahkan shadow-xl pada tombol
         >
           Learn More
         </a>

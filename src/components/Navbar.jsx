@@ -7,20 +7,23 @@ export default function Navbar() {
     <nav className="bg-white shadow-md fixed w-full top-0 left-0 z-50">
       <div className="container mx-auto px-6 flex justify-between items-center py-4">
         {/* Logo */}
-        <div className="text-xl font-bold text-green-700">SMARTECH</div>
-
+        <div className="div">
+          <a href="" className="text-xl font-bold text-slate-700 hover:text-cyan-700">
+            SMARTECH
+          </a>
+        </div>
         {/* Menu Desktop */}
         <div className="hidden md:flex space-x-6">
-          <a href="#home" className="font-semibold text-gray-700 hover:text-green-700">
+          <a href="" className="font-semibold text-slate-700 hover:text-cyan-700">
             Home
           </a>
-          <a href="#about" className="font-semibold text-gray-700 hover:text-green-700">
+          <a href="#about" className="font-semibold text-slate-700 hover:text-cyan-700">
             About Us
           </a>
-          <a href="#products" className="font-semibold text-gray-700 hover:text-green-700">
+          <a href="#products" className="font-semibold text-slate-700 hover:text-cyan-700">
             Our Products
           </a>
-          <a href="#contact" className="font-semibold text-gray-700 hover:text-green-700">
+          <a href="#contact" className="font-semibold text-slate-700 hover:text-cyan-700">
             Contact Us
           </a>
         </div>
@@ -28,7 +31,7 @@ export default function Navbar() {
         {/* Tombol Menu Mobile */}
         <button
           onClick={() => setIsOpen(!isOpen)}
-          className="md:hidden text-gray-700 focus:outline-none"
+          className="md:hidden text-slate-700 focus:outline-none"
         >
           <svg
             className="w-6 h-6"
@@ -54,30 +57,30 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden px-6 pb-4 space-y-2 bg-white shadow-md">
           <a
-            href="#home"
+            href=""
             onClick={() => setIsOpen(false)}
-            className="font-semibold block text-gray-700 hover:text-green-700"
+            className="block text-slate-700 hover:text-cyan-700"
           >
             Home
           </a>
           <a
             href="#about"
             onClick={() => setIsOpen(false)}
-            className="font-semibold block text-gray-700 hover:text-green-700"
+            className="block text-slate-700 hover:text-cyan-700"
           >
             About Us
           </a>
           <a
             href="#products"
             onClick={() => setIsOpen(false)}
-            className="font-semibold block text-gray-700 hover:text-green-700"
+            className="block text-slate-700 hover:text-cyan-700"
           >
             Our Products
           </a>
           <a
             href="#contact"
             onClick={() => setIsOpen(false)}
-            className="font-semibold block text-gray-700 hover:text-green-700"
+            className="block text-slate-700 hover:text-cyan-700"
           >
             Contact Us
           </a>

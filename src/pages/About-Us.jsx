@@ -11,21 +11,21 @@ export default function About() {
 
         <div className="grid md:grid-cols-3 gap-8 mt-10">
           <div className="p-6 bg-white shadow-md rounded-xl hover:shadow-lg transition">
-            <h3 className="text-xl font-bold text-green-700 mb-2">Our Mission</h3>
+            <h3 className="text-xl font-bold text-cyan-700 mb-2">Our Mission</h3>
             <p className="text-gray-600 text-sm">
               To provide smart, reliable, and user-friendly technology solutions for everyone.
             </p>
           </div>
 
           <div className="p-6 bg-white shadow-md rounded-xl hover:shadow-lg transition">
-            <h3 className="text-xl font-bold text-green-700 mb-2">Our Vision</h3>
+            <h3 className="text-xl font-bold text-cyan-700 mb-2">Our Vision</h3>
             <p className="text-gray-600 text-sm">
               To become a leading innovator in the technology industry, shaping the future with cutting-edge products.
             </p>
           </div>
 
           <div className="p-6 bg-white shadow-md rounded-xl hover:shadow-lg transition">
-            <h3 className="text-xl font-bold text-green-700 mb-2">Our Values</h3>
+            <h3 className="text-xl font-bold text-cyan-700 mb-2">Our Values</h3>
             <p className="text-gray-600 text-sm">
               Innovation, quality, and integrity — we are committed to making a positive impact through technology.
             </p>
