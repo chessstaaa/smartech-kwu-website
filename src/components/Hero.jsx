@@ -20,7 +20,7 @@ export default function Hero() {
       {/* Konten teks */}
       <div className="relative z-10 px-6">
         {/* Menggunakan drop-shadow-2xl untuk bayangan yang lebih kuat */}
-        <h1 className="text-5xl md:text-6xl font-extrabold mb-4 drop-shadow-2xl">
+        <h1 className="text-5xl md:text-6xl font-bold mb-4 drop-shadow-2xl">
           SMARTECH
         </h1>
         {/* Menggunakan drop-shadow-lg agar lebih menonjol */}
