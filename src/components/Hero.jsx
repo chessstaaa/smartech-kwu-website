@@ -25,7 +25,7 @@ export default function Hero() {
         </h1>
         {/* Menggunakan drop-shadow-lg agar lebih menonjol */}
         <p className="text-lg md:text-2xl mb-6 font-medium drop-shadow-lg">
-          Empowering Your Life with Innovative Technology Solutions
+          Smart Innovation for Smart Campus
         </p>
         <a
           href="#about"

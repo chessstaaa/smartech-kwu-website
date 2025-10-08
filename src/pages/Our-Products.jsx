@@ -10,7 +10,7 @@ export default function Products() {
   return (
     <section id="products" className="py-20 bg-white">
       <div className="container mx-auto px-6 text-center">
-        <h2 className="text-3xl font-bold text-gray-800 mb-10">Our Product</h2>
+        <h2 className="text-3xl font-bold text-gray-800 mb-10">Our Products</h2>
         <div className="flex justify-center">
           <div className="bg-gray-50 rounded-xl overflow-hidden shadow-md hover:shadow-lg transition max-w-sm">
             <img src={foto2} alt={product.name} className="w-full h-56 object-cover" />
